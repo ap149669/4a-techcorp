@@ -16,4 +16,5 @@ public abstract class Employee {
     public double getSalary() { return salary; }
 
     public abstract int work();
+    public abstract String getRoleName();
 }

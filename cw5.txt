@@ -1,0 +1,10 @@
+Rozwiązanie oparte na dziedziczeniu jest znacznie lepsze niż pojedyncza klasa z polem role 
+i instrukcjami if/else ponieważ realizuje zasadę Open/Closed co pozwala na dodawanie nowych 
+typów pracowników bez modyfikowania istniejącego kodu. Każda podklasa może posiadać własne 
+specyficzne pola i metody co sprawia że struktura danych jest czystsza i lepiej oddaje rzeczywistość
+ biznesową. Wykorzystanie polimorfizmu pozwala metodzie work działać w różny sposób dla różnych 
+ obiektów przy zachowaniu tego samego wywołania w pętli co drastycznie upraszcza zarządzanie 
+ projektami. Takie podejście eliminuje ryzyko błędów przy rozbudowie systemu i ułatwia testowanie 
+ poszczególnych fragmentów logiki w izolacji od reszty firmy. W efekcie system staje się bardziej 
+ elastyczny i przygotowany na wzrost złożoności przy jednoczesnym zachowaniu wysokiej czytelności 
+ kodu źródłowego.

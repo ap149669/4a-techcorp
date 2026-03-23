@@ -40,6 +40,13 @@ public class Company {
             );
         }
     }
+    public void showDetailedEmployeeStatus() {
+    System.out.println("--- LISTA PRACOWNIKÓW ---");
+    for (Employee e : employees) {
+        // ĆWICZENIE 3: Używamy e.getRoleName() zamiast refleksji
+        System.out.println("Imię: " + e.getName() + " | Rola: " + e.getRoleName());
+    }
+}
 
     public String getName() {
         return name;

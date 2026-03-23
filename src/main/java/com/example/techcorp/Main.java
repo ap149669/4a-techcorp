@@ -24,6 +24,7 @@ public class Main {
         Employee testPiotr = new Tester("Piotr", 6, 6500);
         Employee testMarta = new Tester("Marta", 8, 7000);
         Employee managerKamil = new Manager("Kamil", 10, 12000);
+        Employee intern1 = new Intern("Janusz", 4, 2000);
 
         
         Project mobileApp = new Project("Aplikacja Mobilna", 50);
