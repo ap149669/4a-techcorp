@@ -1,5 +1,4 @@
-package com.techcorp;
-
+package com.example.techcorp;
 import java.util.ArrayList;
 import java.util.List;
 

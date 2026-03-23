@@ -1,15 +1,17 @@
-package com.techcorp;
+package com.example.techcorp;
 
 public class Intern extends Employee {
 
-    public Tester(String name, int skill, double salary) {
-        super(name, skill, salary);
+    public Intern(String name, int skillLevel, double salary) {
+        super(name, skillLevel, salary);
     }
 
     @Override
     public int work() {
-        return getSkill()/4;
+        
+        return (int) (this.skill * 0.25);
     }
+
     @Override
     public String getRoleName() {
         return "Stażysta";

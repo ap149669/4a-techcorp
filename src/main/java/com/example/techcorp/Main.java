@@ -1,4 +1,4 @@
-package com.techcorp;
+package  com.example.techcorp;
 
 public class Main {
    

@@ -1,4 +1,4 @@
-package com.techcorp;
+package com.example.techcorp;
 
 public class Manager extends Employee {
 
@@ -9,6 +9,10 @@ public class Manager extends Employee {
     @Override
     public int work() {
         
-        return getSkill() / 2 + 3;
+        return getSkill();
+    }
+    @Override
+    public String getRoleName() {
+        return "Manager";
     }
 }
